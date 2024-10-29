@@ -1,4 +1,5 @@
 provider "aws" {
   region  = "us-east-1"
-  profile = "vscode"
+  access_key = "your_aws_access_key"
+  secret_key = "your_aws_secret_access_key"
 }
